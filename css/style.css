@@ -1,0 +1,51 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.headr
+{
+    width: 960px;
+    height: 150px;
+    margin: 0 auto;
+    border : solid 2px #333;
+    margin-bottom: 10px;
+}
+.home-box
+{
+    margin: 0 auto;
+    width: 960px;
+    height: 520px;
+}
+.user
+{
+    float: left;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 340px;
+    height: 250px;
+    border:solid 2px #333333;
+}
+.list
+{
+    float: right;
+    margin: 0 auto;
+    width: 600px;
+    height: 514px;
+    border: solid 2px #333333;
+}
+.pics
+{
+    float: left;
+    margin: 0 auto;
+    width: 340px;
+    height: 250px;
+    border: solid 2px #333333;
+}
+.fotter
+{
+    margin: 0 auto;
+    width: 960px;
+    height: 60px;
+    border: solid 2px #333333;
+}

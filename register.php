@@ -13,12 +13,12 @@
         <div class="index-header">
             <center><h1>CXBBS 注册</h1></center>
         </div>
-    <div class="form-group ">
-        <form action="" method="post">
+    <div class="form">
+        <form action="reg.php" method="post">
             <input class="form-control" type="text" name="username" id="name" placeholder="用户名" required onchange="checkUsername()">
-            <input class="form-control" type="password" name="password" id="pw1" placeholder="密码" required onchange="checkPasswords()">
-            <input class="form-control" type="password" name="password confirm" id="pw2" placeholder="确认密码" required onchange="checkPasswords()">
-            <input class="btn btn-default" type="submit" name="提交" id="submit" value="注册">
+            <input class="form-control" type="password" name="pw1" id="pw1" placeholder="密码" required onchange="checkPasswords()">
+            <input class="form-control" type="password" name="pw2" id="pw2" placeholder="确认密码" required onchange="checkPasswords()">
+            <input class="btn btn-default" type="submit" name="submit"  value="注册">
         </form>
     </div>
     </div>
@@ -42,7 +42,6 @@
         function check() {
             document.getElementById('ok').disabled = 'disabled';
         }
-
     </script>
 </body>
 </html>

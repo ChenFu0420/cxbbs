@@ -41,7 +41,6 @@
         function check() {
             document.getElementById('ok').disabled = 'disabled';
         }
-
     </script>
 </body>
 </html>

@@ -15,7 +15,7 @@
         </div>
     <div class="form">
         <form action="reg.php" method="post">
-            <input class="form-control" type="text" name="username" id="name" placeholder="用户名" required onchange="checkUsername()">
+            <input class="form-control" type="text" name="username" id="name" placeholder="用户名" required onchange="()">
             <input class="form-control" type="password" name="pw1" id="pw1" placeholder="密码" required onchange="checkPasswords()">
             <input class="form-control" type="password" name="pw2" id="pw2" placeholder="确认密码" required onchange="checkPasswords()">
             <input class="btn btn-default" type="submit" name="submit"  value="注册">
@@ -23,6 +23,7 @@
     </div>
     </div>
     <script>
+
         function checkPasswords() {
             var passl = document.getElementById("pw1");
             var pass2 = document.getElementById("pw2");
@@ -31,14 +32,6 @@
             else
                 passl.setCustomValidity('');
         }
-        function checkUsername() {
-            var user = document.getElementById("name");
-            if (name.value = 0)
-                name.setCustomValidity("用户名不能为空");
-            else
-                name.setCustomValidity('');
-        }
-
         function check() {
             document.getElementById('ok').disabled = 'disabled';
         }

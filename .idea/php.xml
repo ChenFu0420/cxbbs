@@ -2,12 +2,12 @@
 <project version="4">
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="C:\wamp64\bin\php\php5.6.25\php.exe" id="17271db9-3971-4a05-a7fc-d7f4b668e895" name="PHP" debugger_id="php.debugger.XDebug" />
+      <interpreter home="C:\wamp64\bin\php\php5.6.25\php.exe" id="17271db9-3971-4a05-a7fc-d7f4b668e895" name="PHP (project level)" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
-      <interpreter name="PHP">
+      <interpreter name="PHP (project level)">
         <phpinfo binary_type="PHP" php_cgi="C:\wamp64\bin\php\php5.6.25\php-cgi.exe" php_cli="C:\wamp64\bin\php\php5.6.25\php.exe" path_separator=";" version="5.6.25">
           <additional_php_ini />
           <configuration_file>C:\wamp64\bin\php\php5.6.25\php.ini</configuration_file>

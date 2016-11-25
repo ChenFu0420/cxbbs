@@ -12,10 +12,10 @@
     <div class="index-lg container">
         <center><h1>CXBBS 登录</h1></center>
         <div class="form-group">
-                <form action="" method="get">
+                <form action="log.php" method="post">
                     <input class="form-control" type="text" name="name" id="name" placeholder="用户名" required onchange="checkUsername()">
                     <input class="form-control" type="password" name="pw1" id="pw1" placeholder="密码">
-                    <input class="btn btn-default" type="submit" name="提交" id="submit" value="注册">
+                    <input class="btn btn-default" type="submit" name="提交" id="submit" value="登录">
                 </form>
         </div>
     </div>

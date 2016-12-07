@@ -13,32 +13,20 @@
         <div class="index-header">
             <center><h1>CXBBS 注册</h1></center>
         </div>
-    <div class="form">
+    <div class="form-group">
         <form action="reg.php" method="post">
-            <input class="form-control" type="text" name="username" id="name" placeholder="用户名" required onchange="()">
-            <input class="form-control" type="password" name="pw1" id="pw1" placeholder="密码" required onchange="checkPasswords()">
-            <input class="form-control" type="password" name="pw2" id="pw2" placeholder="确认密码" required onchange="checkPasswords()">
-            性别：
-            <input class="radio-inline" type="radio" value="男" name="sex" checked="checked">男 &nbsp;&nbsp;<input type="radio" value="女" name="sex" checked="checked">女
+            <input class="form-control" type="text" name="username" id="name" placeholder="用户名">
+            <input class="form-control" type="password" name="pw1" id="pw1" placeholder="密码">
+            <input class="form-control" type="password" name="pw2" id="pw2" placeholder="确认密码">
             <dd>选择头像：<input type="image" name="image" src="images/m01.gif" class="img-" id="faceimg"></dd>
             <input class="form-control" type="email" name="email" placeholder="邮箱地址">
+            <input class="form-control" type="text" name="checkcode" id="checkcode" placeholder="点击验证码刷新">
+            <img src="Captcha.php" alt="" id="codeimg" onclick="javascript:this.src = 'Captcha.php?'+Math.random();">
             <input class="btn btn-default" type="submit" name="submit"  value="注册">
+
         </form>
     </div>
     </div>
-    <script>
 
-        function checkPasswords() {
-            var passl = document.getElementById("pw1");
-            var pass2 = document.getElementById("pw2");
-            if (passl.value != pass2.value)
-                passl.setCustomValidity("两次密码必须输入一致！");
-            else
-                passl.setCustomValidity('');
-        }
-        function check() {
-            document.getElementById('ok').disabled = 'disabled';
-        }
-    </script>
 </body>
 </html>
